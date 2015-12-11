@@ -44,5 +44,6 @@
             "title":"Owner UUID"
         }
     ],
+    "icon": "bitbucket",
     "title": "Bitbucket Get Repo" /* Required.A display name for the module */
 }

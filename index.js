@@ -34,6 +34,9 @@ module.exports = {
 
                 result = _.isEmpty(result)? undefined : result;
                 return;
+            } else if (_.isUndefined(result)) {
+
+                result = _.isArray(pickTemplate)? [] : {};
             }
 
             // if template key is object - transform, else just save

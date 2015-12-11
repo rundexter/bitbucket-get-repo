@@ -140,6 +140,7 @@ module.exports = {
 
     checkCorrectParams: function (auth, owner, repo_slug) {
         var result = true;
+        
 
         if (!auth) {
 

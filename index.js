@@ -36,7 +36,6 @@ module.exports = {
                 return;
             }
 
-
             // if template key is object - transform, else just save
             if (_.isArray(pickTemplate)) {
 
@@ -140,7 +139,6 @@ module.exports = {
 
     checkCorrectParams: function (auth, owner, repo_slug) {
         var result = true;
-        
 
         if (!auth) {
 

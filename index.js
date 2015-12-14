@@ -64,7 +64,7 @@ module.exports = {
             this.complete(util.pickResult(body, globalPickResult));
     },
 
-    checkCorrectParams: function (auth, owner, repo_slug) {
+    checkCorrectParams: function (auth, step) {
         var result = true;
 
         if (!auth) {

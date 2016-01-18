@@ -44,6 +44,9 @@
             "title":"Owner UUID"
         }
     ],
+    "providers": [{
+        "name": "bitbucket"
+    }],
     "icon": "bitbucket",
     "title": "Bitbucket Get Repo" /* Required.A display name for the module */
 }
